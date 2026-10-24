@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'TapCub analytics SDK for iOS: events, screens, sessions, consent, crashes.'
   s.homepage         = 'https://tapcub.com'
   s.license          = { :type => 'MIT' }
-  s.author           = { 'TapCub' => 'sdk@tapcub.io' }
+  s.author           = { 'TapCub' => 'hello@tapcub.com' }
   s.source           = { :git => 'https://github.com/tapcub/tapcub-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target  = '13.0'

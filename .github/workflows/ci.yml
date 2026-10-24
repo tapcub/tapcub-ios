@@ -22,7 +22,7 @@ jobs:
     name: Swift vectors, adapters, device build
     runs-on: macos-15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       # Shared vectors are in test-vectors/sdk; VectorTests finds them automatically
       - run: swift test
       - name: Build for iOS simulator and device
